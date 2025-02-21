@@ -1,0 +1,37 @@
+:root {
+  --main-bg-color: #1a1a2e;
+  --text-color: #e6e6e6;
+  --accent-color: #f9c74f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+} 
